@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+-   You have installed [Git LFS](https://git-lfs.github.com/).
+-   You have installed [Lando](https://lando.dev/).
+
+## Installation
+
+```bash
+# install and start the project
+scripts/start.sh -i
+
+# or add the r flag to reinstall and start the project
+scripts/start.sh -ir
+
+# or skip the installation steps and start the project
+scripts/start.sh
+```
