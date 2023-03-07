@@ -16,27 +16,28 @@ return [
     'sites' => [
 
         'english' => [
-            'name' => config('app.name'),
+            // 'name' => config('app.name'),
+            'name' => 'english',
             'locale' => 'en_US',
-            'url' => '/',
+            'url' => env('APP_URL') . '/en/',
         ],
 
         'belgian-dutch' => [
             'name' => 'belgian-dutch',
             'locale' => 'nl_BE',
-            'url' => env('APP_URL') . 'be/nl_BE/',
+            'url' => env('APP_URL') . '/nl_BE/',
         ],
 
         'belgian-french' => [
             'name' => 'belgian-french',
             'locale' => 'fr_BE',
-            'url' => env('APP_URL') . 'be/fr_BE/',
+            'url' => env('APP_URL') . '/fr_BE/',
         ],
 
         'dutch' => [
             'name' => 'dutch',
             'locale' => 'nl_NL',
-            'url' => env('APP_URL') . 'nl/',
+            'url' => env('APP_URL') . '/nl/',
         ],
 
     ],

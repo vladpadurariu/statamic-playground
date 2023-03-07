@@ -1,0 +1,18 @@
+title: Pages
+sites:
+  - english
+  - belgian-dutch
+  - belgian-french
+  - dutch
+propagate: true
+template: pages/index
+layout: layout
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
