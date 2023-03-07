@@ -15,10 +15,28 @@ return [
 
     'sites' => [
 
-        'default' => [
+        'english' => [
             'name' => config('app.name'),
             'locale' => 'en_US',
             'url' => '/',
+        ],
+
+        'belgian-dutch' => [
+            'name' => 'belgian-dutch',
+            'locale' => 'nl_BE',
+            'url' => env('APP_URL') . 'be/nl_BE/',
+        ],
+
+        'belgian-french' => [
+            'name' => 'belgian-french',
+            'locale' => 'fr_BE',
+            'url' => env('APP_URL') . 'be/fr_BE/',
+        ],
+
+        'dutch' => [
+            'name' => 'dutch',
+            'locale' => 'nl_NL',
+            'url' => env('APP_URL') . 'nl/',
         ],
 
     ],
